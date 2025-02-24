@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(62, 132, 212);
+}
+a[href*=".html"]{
+    background-color: rgb(48, 109, 179);
+    padding: 2px;
+    color: white;
+}
+b{
+    font-size: larger;
+    color: rgb(241, 241, 241);
+}  
+html{
+    background-image: -moz-element(bwu-background.jpg);
+}
+img{
+    border: 15px;
+    border-color: rgb(14, 56, 136);
+}
