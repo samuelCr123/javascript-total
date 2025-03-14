@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>return 2</title>
+</head>
+<body>
+    <p>
+        <button onclick="mostrarFecha()">click aqui</button>
+    </p>
+    <script>
+        function mostrarFecha(){
+            let mes= date.getMonth();
+            let año = date.getFullYear();
+            let dia = date.getDate();
+            let obtenerFecha = dia + "/" + mes +"/" + año;
+            alert (obtenerFecha);
+            return obtenerFecha;
+        }  
+    </script>
+</body>
+</html>
